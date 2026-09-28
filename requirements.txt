@@ -1,0 +1,15 @@
+---
+
+## `requirements.txt`
+
+```txt
+# BlueRecon - Python dependencies
+
+# Core BLE scanning / GATT enumeration
+bleak>=0.22.0
+
+# Serial interface (Ubertooth / dongle firmware interaction, optional)
+pyserial>=3.5
+
+# GLib bindings used by some BlueZ Python tooling
+PyGObject>=3.42.0
